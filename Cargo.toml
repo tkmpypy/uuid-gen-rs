@@ -1,0 +1,11 @@
+[package]
+name = "uuid-gen"
+version = "0.1.0"
+authors = ["tkmpypy <tkmpypy@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+uuid = { version = "0.8", features = ["v1", "v3", "v4", "v5"] }
+clap = { version = "3.0.0-beta.2", features = ["yaml"] }
