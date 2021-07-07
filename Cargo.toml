@@ -9,3 +9,4 @@ edition = "2018"
 [dependencies]
 uuid = { version = "0.8", features = ["v1", "v3", "v4", "v5"] }
 clap = { version = "3.0.0-beta.2", features = ["yaml"] }
+clipboard = "0.5"

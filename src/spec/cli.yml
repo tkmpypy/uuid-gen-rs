@@ -8,4 +8,9 @@ args:
         possible_values: [v1, v5, v3, v4]
         required: true
         index: 1
-
+    - copy:
+        about: copy to clipboard
+        short: c
+        long: copy
+        takes_value: false
+        global: true
