@@ -53,6 +53,7 @@ impl Flags {
     }
 }
 
+// TODO: `namespace` and `name` should be cli args 
 fn main() {
     let y = load_yaml!("spec/cli.yml");
     let matches = App::from(y).get_matches();
